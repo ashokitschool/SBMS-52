@@ -1,0 +1,19 @@
+package in.ashokit.beans;
+
+public class UserService {
+	
+	private PwdService pwdService;
+
+	public UserService() {
+		System.out.println("UserService::Constructor");
+	}
+
+	public void saveUser(String uname,			
+						String pwd, 
+						Long phno) {
+		
+		// insert into db
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package in.ashokit.app;
+
+
+import in.ashokit.beans.DieselEngine;
+
+public class MyApp {
+	
+	public static void main(String[] args) {
+		
+		ApplicationContext ctxt = 
+				new ClassPathXmlApplicationContext("Beans.xml");
+		
+		
+		DieselEngine bean = ctxt.getBean(DieselEngine.class);
+		
+		
+	}
+
+}

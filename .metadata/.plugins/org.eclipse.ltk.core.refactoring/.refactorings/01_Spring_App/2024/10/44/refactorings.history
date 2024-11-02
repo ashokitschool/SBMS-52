@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;in.ashokit.app.MyAPp&apos; to &apos;MyApp&apos;&#x0D;&#x0A;- Original project: &apos;01_Spring_App&apos;&#x0D;&#x0A;- Original element: &apos;in.ashokit.app.MyAPp&apos;&#x0D;&#x0A;- Renamed element: &apos;in.ashokit.app.MyApp&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MyAPp&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.ashokit.app{MyAPp.java[MyAPp" matchStrategy="1" name="MyApp" qualified="false" references="true" similarDeclarations="false" stamp="1730309131701" textual="false" version="1.0"/>
+</session>

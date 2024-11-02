@@ -1,0 +1,9 @@
+package in.ashokit.beans;
+
+public class UserService {
+
+	public UserService() {
+		System.out.println("UserService::Constructor");
+	}
+
+}
