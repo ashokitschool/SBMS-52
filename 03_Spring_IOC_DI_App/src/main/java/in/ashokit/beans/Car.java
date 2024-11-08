@@ -9,6 +9,7 @@ public class Car {
 	}
 
 	public Car(IEngine eng) {
+		System.out.println("Car :: param Constructor");
 		this.eng = eng;
 	}
 

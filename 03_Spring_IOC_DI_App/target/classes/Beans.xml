@@ -7,12 +7,11 @@
     <bean id="de" class="in.ashokit.beans.DieselEngine">
     </bean>
     
-     <bean id="pe" class="in.ashokit.beans.PetrolEngine">
+    <bean id="pe" class="in.ashokit.beans.PetrolEngine">
     </bean>
-    
-    
-    <bean id="car" class="in.ashokit.beans.Car">
-    	<constructor-arg name="eng" ref="pe"/>
-    </bean>
+
+	<bean id="car" class="in.ashokit.beans.Car">
+		<constructor-arg name="eng" ref="pe" />
+	</bean>
 
 </beans>

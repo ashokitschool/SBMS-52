@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="in.ashokit.beans.Car"/>
+    <fullyQualifiedTypeName name="in.ashokit.DateUtils"/>
 </qualifiedTypeNameHistroy>
