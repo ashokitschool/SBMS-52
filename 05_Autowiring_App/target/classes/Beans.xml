@@ -4,14 +4,18 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="sp" class="in.ashokit.beans.SonyPrinter"
-    		primary="true"/>
+    <bean id="sp"
+          class="in.ashokit.beans.SonyPrinter" />
     
-    <bean id="hp" class="in.ashokit.beans.HPPrinter"/>
+    <bean id="hp" 
+    	  class="in.ashokit.beans.HPPrinter"
+	      primary="true"/>
     
-    <bean id="atm" class="in.ashokit.beans.ATM" 
-    			   autowire="byType">
-    	
+    <bean id="atm" 
+    	  class="in.ashokit.beans.ATM" 
+    	  autowire="constructor">
     </bean>
 
 </beans>
+
+
