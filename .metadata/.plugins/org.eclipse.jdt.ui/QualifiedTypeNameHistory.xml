@@ -5,7 +5,13 @@
     <fullyQualifiedTypeName name="in.ashokit.beans.Car"/>
     <fullyQualifiedTypeName name="in.ashokit.DateUtils"/>
     <fullyQualifiedTypeName name="in.ashokit.beans.DieselEngine"/>
+    <fullyQualifiedTypeName name="in.ashokit.beans.ATM"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-    <fullyQualifiedTypeName name="in.ashokit.beans.ATM"/>
+    <fullyQualifiedTypeName name="in.ashokit.beans.BookDAOImpl"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+    <fullyQualifiedTypeName name="in.ashokit.beans.BookDAO"/>
+    <fullyQualifiedTypeName name="in.ashokit.beans.BookService"/>
 </qualifiedTypeNameHistroy>
