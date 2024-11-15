@@ -14,4 +14,15 @@
     <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
     <fullyQualifiedTypeName name="in.ashokit.beans.BookDAO"/>
     <fullyQualifiedTypeName name="in.ashokit.beans.BookService"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+    <fullyQualifiedTypeName name="in.ashokit.dto.BookDTO"/>
+    <fullyQualifiedTypeName name="in.ashokit.mapper.BookRowMapper"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Workbook"/>
+    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="org.apache.poi.hssf.extractor.ExcelExtractor"/>
+    <fullyQualifiedTypeName name="in.ashokit.excel.ExcelGenerator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

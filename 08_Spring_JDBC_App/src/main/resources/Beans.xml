@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="
-        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id = "ds" 
-      class = "org.springframework.jdbc.datasource.DriverManagerDataSource">
-      <property name = "driverClassName" value = "com.mysql.cj.jdbc.Driver"/>
-      <property name = "url" value = "jdbc:mysql://localhost:3306/SBMS52"/>
-      <property name = "username" value = "root"/>
-      <property name = "password" value = "ashokit@123"/>
-   </bean>
-   
-   <bean id="jt" class=" org.springframework.jdbc.core.JdbcTemplate">
-   	<property name="dataSource" ref="ds"/>
-   </bean>
-   
-   <bean id="bd" class="in.ashokit.beans.BookDAOImpl">
-   	<constructor-arg name="jdbcTemplate" ref="jt"/>
-   </bean>
+	<bean id="ds"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/SBMS52" />
+		<property name="username" value="root" />
+		<property name="password" value="ashokit@123" />
+	</bean>
 
+	<bean id="jt" class=" org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="ds" />
+	</bean>
 
-  <bean id="bookService" class="in.ashokit.beans.BookService">
-  	<constructor-arg name="bookDao" ref="bd"/>
-  </bean>
+	<bean id="bd" class="in.ashokit.beans.BookDAOImpl">
+		<constructor-arg name="jdbcTemplate" ref="jt" />
+	</bean>
+
+	<bean id="excelGen" class="in.ashokit.excel.ExcelGenerator" />
+
+	<bean id="bookService" class="in.ashokit.beans.BookService">
+		<constructor-arg name="bookDao" ref="bd" />
+		<constructor-arg name="excelGenerator" ref="excelGen" />
+	</bean>
 
 </beans>
 

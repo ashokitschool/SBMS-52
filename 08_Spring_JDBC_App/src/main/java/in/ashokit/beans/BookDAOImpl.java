@@ -1,6 +1,11 @@
 package in.ashokit.beans;
 
+import java.util.List;
+
 import org.springframework.jdbc.core.JdbcTemplate;
+
+import in.ashokit.dto.BookDTO;
+import in.ashokit.mapper.BookRowMapper;
 
 public class BookDAOImpl implements BookDAO {
 
@@ -21,4 +26,15 @@ public class BookDAOImpl implements BookDAO {
 			ps.setDouble(3, bprice);
 		});
 	}
+
+	@Override
+	public List<BookDTO> getBooks() {
+
+		String sql = "select * from book_tbl";
+
+		List<BookDTO> books = jdbcTemplate.query(sql, new BookRowMapper());
+
+		return books;
+	}
+
 }
