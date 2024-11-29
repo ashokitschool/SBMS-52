@@ -3368,3 +3368,86 @@ org.eclipse.core.runtime.CoreException: Launch configuration App (2) references 
 2024-11-15 10:20:20,656 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-11-15 10:20:20,657 [Worker-21: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-11-15 10:20:20,658 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-28 08:56:57,526 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-28 08:57:29,641 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:09_SB_App:0.0.1-SNAPSHOT @ G:\SBMS\workspace\09_SB_App\pom.xml.
+2024-11-28 08:57:30,690 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:10_SB_App:0.0.1-SNAPSHOT @ G:\SBMS\workspace\10_SB_App\pom.xml.
+2024-11-28 08:57:30,788 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:11_SB_Autowiring:0.0.1-SNAPSHOT @ G:\SBMS\workspace\11_SB_Autowiring\pom.xml.
+2024-11-28 08:57:30,948 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:13_Data_JPA_App:0.0.1-SNAPSHOT @ G:\SBMS\workspace\13_Data_JPA_App\pom.xml.
+2024-11-28 08:57:32,036 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:14_Data_JPA_Ops:0.0.1-SNAPSHOT @ G:\SBMS\workspace\14_Data_JPA_Ops\pom.xml.
+2024-11-28 08:57:34,338 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /09_SB_App/src/main/java
+2024-11-28 08:57:34,340 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_SB_App/src/main/resources
+2024-11-28 08:57:34,341 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_SB_App/src/main/resources
+2024-11-28 08:57:34,341 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /09_SB_App/src/test/java
+2024-11-28 08:57:34,342 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_SB_App/src/test/resources
+2024-11-28 08:57:34,545 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /10_SB_App/src/main/java
+2024-11-28 08:57:34,546 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /10_SB_App/src/main/resources
+2024-11-28 08:57:34,547 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /10_SB_App/src/main/resources
+2024-11-28 08:57:34,548 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /10_SB_App/src/test/java
+2024-11-28 08:57:34,549 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /10_SB_App/src/test/resources
+2024-11-28 08:57:34,723 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /11_SB_Autowiring/src/main/java
+2024-11-28 08:57:34,723 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_SB_Autowiring/src/main/resources
+2024-11-28 08:57:34,723 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_SB_Autowiring/src/main/resources
+2024-11-28 08:57:34,723 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /11_SB_Autowiring/src/test/java
+2024-11-28 08:57:34,724 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_SB_Autowiring/src/test/resources
+2024-11-28 08:57:34,867 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /14_Data_JPA_Ops/src/main/java
+2024-11-28 08:57:34,868 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /14_Data_JPA_Ops/src/main/resources
+2024-11-28 08:57:34,868 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /14_Data_JPA_Ops/src/main/resources
+2024-11-28 08:57:34,869 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /14_Data_JPA_Ops/src/test/java
+2024-11-28 08:57:34,869 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /14_Data_JPA_Ops/src/test/resources
+2024-11-28 08:57:35,239 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /13_Data_JPA_App/src/main/java
+2024-11-28 08:57:35,239 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13_Data_JPA_App/src/main/resources
+2024-11-28 08:57:35,240 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13_Data_JPA_App/src/main/resources
+2024-11-28 08:57:35,240 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /13_Data_JPA_App/src/test/java
+2024-11-28 08:57:35,240 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13_Data_JPA_App/src/test/resources
+2024-11-28 08:57:35,433 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 5 project(s) in 9 sec
+2024-11-28 08:57:35,713 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-28 08:57:37,113 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:09_SB_App:0.0.1-SNAPSHOT @ G:\SBMS\workspace\09_SB_App\pom.xml.
+2024-11-28 08:57:37,275 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:10_SB_App:0.0.1-SNAPSHOT @ G:\SBMS\workspace\10_SB_App\pom.xml.
+2024-11-28 08:57:37,338 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:11_SB_Autowiring:0.0.1-SNAPSHOT @ G:\SBMS\workspace\11_SB_Autowiring\pom.xml.
+2024-11-28 08:57:37,392 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:13_Data_JPA_App:0.0.1-SNAPSHOT @ G:\SBMS\workspace\13_Data_JPA_App\pom.xml.
+2024-11-28 08:57:37,589 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:14_Data_JPA_Ops:0.0.1-SNAPSHOT @ G:\SBMS\workspace\14_Data_JPA_Ops\pom.xml.
+2024-11-28 08:57:38,137 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /09_SB_App/src/main/java
+2024-11-28 08:57:38,137 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_SB_App/src/main/resources
+2024-11-28 08:57:38,137 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_SB_App/src/main/resources
+2024-11-28 08:57:38,137 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /09_SB_App/src/test/java
+2024-11-28 08:57:38,138 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_SB_App/src/test/resources
+2024-11-28 08:57:38,231 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /10_SB_App/src/main/java
+2024-11-28 08:57:38,231 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /10_SB_App/src/main/resources
+2024-11-28 08:57:38,231 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /10_SB_App/src/main/resources
+2024-11-28 08:57:38,231 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /10_SB_App/src/test/java
+2024-11-28 08:57:38,231 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /10_SB_App/src/test/resources
+2024-11-28 08:57:38,324 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /11_SB_Autowiring/src/main/java
+2024-11-28 08:57:38,325 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_SB_Autowiring/src/main/resources
+2024-11-28 08:57:38,325 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_SB_Autowiring/src/main/resources
+2024-11-28 08:57:38,325 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /11_SB_Autowiring/src/test/java
+2024-11-28 08:57:38,326 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_SB_Autowiring/src/test/resources
+2024-11-28 08:57:38,449 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /13_Data_JPA_App/src/main/java
+2024-11-28 08:57:38,449 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13_Data_JPA_App/src/main/resources
+2024-11-28 08:57:38,450 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13_Data_JPA_App/src/main/resources
+2024-11-28 08:57:38,450 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /13_Data_JPA_App/src/test/java
+2024-11-28 08:57:38,451 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13_Data_JPA_App/src/test/resources
+2024-11-28 08:57:38,680 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /14_Data_JPA_Ops/src/main/java
+2024-11-28 08:57:38,680 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /14_Data_JPA_Ops/src/main/resources
+2024-11-28 08:57:38,680 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /14_Data_JPA_Ops/src/main/resources
+2024-11-28 08:57:38,680 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /14_Data_JPA_Ops/src/test/java
+2024-11-28 08:57:38,681 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /14_Data_JPA_Ops/src/test/resources
+2024-11-28 08:57:39,136 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 5 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2024-11-28 08:57:39,524 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-28 08:57:39,546 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-28 08:57:39,552 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory G:\SBMS\workspace\09_SB_App\src\test\resources
+2024-11-28 08:57:40,155 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-28 08:57:40,177 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-28 08:57:40,183 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory G:\SBMS\workspace\10_SB_App\src\test\resources
+2024-11-28 08:57:40,374 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-28 08:57:40,384 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-28 08:57:40,389 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory G:\SBMS\workspace\11_SB_Autowiring\src\test\resources
+2024-11-28 08:57:40,716 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-28 08:57:40,737 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-28 08:57:40,743 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory G:\SBMS\workspace\13_Data_JPA_App\src\test\resources
+2024-11-28 08:57:41,061 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-28 08:57:41,080 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-28 08:57:41,083 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory G:\SBMS\workspace\14_Data_JPA_Ops\src\test\resources
+2024-11-28 09:07:22,169 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-28 09:07:22,169 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-28 09:07:22,175 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-28 09:07:22,176 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
