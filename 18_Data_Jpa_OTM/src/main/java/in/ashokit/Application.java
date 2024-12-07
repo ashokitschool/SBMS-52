@@ -13,7 +13,10 @@ public class Application {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 
 		EmployeeService bean = context.getBean(EmployeeService.class);
-		bean.saveEmpWithAddr();
+		// bean.saveEmpWithAddr();
+		// bean.getEmp();
+		// bean.deleteEmp();
+		// bean.getAddr();
 	}
 
 }

@@ -2,6 +2,7 @@ package in.ashokit.service;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,6 +20,23 @@ public class EmployeeService {
 
 	@Autowired
 	private AddrRepo addrRepo;
+	
+	
+	public void deleteEmp() {
+		empRepo.deleteById(2);
+	}
+	
+	public void getAddr() {
+		addrRepo.findById(5);
+	}
+
+	public void getEmp() {
+		Optional<Employee> byId = empRepo.findById(1);
+		if(byId.isPresent()) {
+			Employee employee = byId.get();
+			//System.out.println(employee);
+		}
+	}
 
 	public void saveEmpWithAddr() {
 
