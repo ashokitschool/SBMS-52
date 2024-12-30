@@ -40,11 +40,9 @@ public class UserController {
 	public String handleSubmit(@Valid User user, 
 									  BindingResult result, 
 									  Model model) {
-		
 		if(result.hasErrors()) {
 			return "index";
 		}
-		
 		boolean isSaved = userService.saveUser(user);
 		if (isSaved) {
 			model.addAttribute("smsg", "User saved");

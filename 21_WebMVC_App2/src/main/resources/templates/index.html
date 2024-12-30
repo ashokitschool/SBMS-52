@@ -31,21 +31,27 @@
 					<input type="hidden" th:field="*{uid}" />
 					
 					<td>
-						<p th:if="${#fields.hasErrors('name')}" th:errorclass="error" th:errors="*{name}" />
+						<p th:if="${#fields.hasErrors('name')}" 
+						   th:errorclass="error" 
+						   th:errors="*{name}" />
 					</td>
 				</tr>
 				<tr>
 					<td>Email : </td>
 					<td><input type="email" th:field="*{email}" /></td>
 					<td>
-						<p th:if="${#fields.hasErrors('email')}" th:errorclass="error" th:errors="*{email}" />
+						<p th:if="${#fields.hasErrors('email')}" 
+						   th:errorclass="error" 
+						   th:errors="*{email}" />
 					</td>
 				</tr>
 				<tr>
 					<td>Phno : </td>
 					<td><input type="number" th:field="*{phno}" /></td>
 					<td>
-						<p th:if="${#fields.hasErrors('phno')}" th:errorclass="error" th:errors="*{phno}" />
+						<p th:if="${#fields.hasErrors('phno')}" 
+						   th:errorclass="error" 
+						   th:errors="*{phno}" />
 					</td>
 				</tr>
 				<tr>

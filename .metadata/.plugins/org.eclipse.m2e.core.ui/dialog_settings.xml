@@ -48,6 +48,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="24-JSON-App"/>
 			<item value="08_Spring_JDBC_App"/>
 			<item value="05_Autowiring_App"/>
 			<item value="03_Spring_IOC_DI_App"/>
