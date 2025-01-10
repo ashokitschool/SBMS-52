@@ -16,7 +16,7 @@ public class AppExceptionHandler {
 		String message = e.getMessage();
 
 		ExInfo exinfo = new ExInfo();
-		exinfo.setExCode("EXCourse79797");
+		exinfo.setExCode("EX79797");
 		exinfo.setExMsg(message);
 		exinfo.setExDate(LocalDateTime.now());
 
@@ -29,7 +29,7 @@ public class AppExceptionHandler {
 		String message = e.getMessage();
 
 		ExInfo exinfo = new ExInfo();
-		exinfo.setExCode("EX797979");
+		exinfo.setExCode("EX12347");
 		exinfo.setExMsg(message);
 		exinfo.setExDate(LocalDateTime.now());
 

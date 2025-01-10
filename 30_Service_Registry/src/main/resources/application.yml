@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: 30_Service_Registry
+server:
+  port: 8761		
+eureka:
+  client:
+    register-with-eureka: false	

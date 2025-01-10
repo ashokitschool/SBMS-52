@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: 35_Config_Server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ashokitschool/configuration_properties
+server:
+  port: 9093					
